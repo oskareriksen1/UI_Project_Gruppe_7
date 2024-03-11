@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class UIcontroller {
 
-    @GetMapping("/UIProject")
+    @GetMapping("/GrædOverSpildtMælk")
     public String visUIProject(){
-        return "UIProject";
+        return "UIProjectForside";
 
     }
 }

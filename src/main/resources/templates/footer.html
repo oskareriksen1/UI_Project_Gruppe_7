@@ -2,14 +2,17 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" th:href="@{/css/footer.css}" href="../static/css/footer.css">
+
 </head>
 <body>
 
-<footer>
+<footer class="footer">
+    <div class="logo">
         <div class="footer-left">
-            <img src="../static/images/LogoMadspild.png" alt="Logo">
+            <img src="../static/images/LogoMadspild.png" th:src="@{images/LogoMadspild.png}" alt="Website logo">
             <p>Græd Over Spildt Mælk</p>
+        </div>
         </div>
         <div class="footer-center">
             <p>Kontakt os:</p>
@@ -25,6 +28,7 @@
                 <li> <a href="#">Betingelser og vilkår</a> </li>
                 <li> <a href="#">Cookies</a> </li>
             </ul>
+
     </div>
 </footer>
 </body>

@@ -11,5 +11,9 @@ public class UIcontroller {
         return "Sidehovedbar";
 
     }
+    @GetMapping("/engros")
+    public String visEngros(){
+        return "engros";
+    }
 
 }

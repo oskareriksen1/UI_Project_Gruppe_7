@@ -8,7 +8,7 @@ public class UIcontroller {
 
     @GetMapping("/GrædOverSpildtMælk")
     public String visUIProject(){
-        return "Sidehovedbar";
+        return "GrædOverSpildtMælk";
 
     }
     @GetMapping("/engros")

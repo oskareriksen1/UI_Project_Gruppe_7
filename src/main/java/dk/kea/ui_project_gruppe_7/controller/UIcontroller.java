@@ -15,5 +15,8 @@ public class UIcontroller {
     public String visEngros(){
         return "engros";
     }
-
+@GetMapping("/test")
+    public String test(){
+        return "test";
+}
 }

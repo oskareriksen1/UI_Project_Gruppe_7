@@ -15,7 +15,7 @@ body {
     justify-content: center;
     background-color: salmon;
 }
-header{
+.Sidehovedbar{
     display:flex;
     justify-content: space-between;
     align-items:center;

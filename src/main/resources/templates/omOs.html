@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Om Danmark mod Madspild</title>
+  <link rel="stylesheet" th:href="@{/css/styles.css}" href="../static/css/styles.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .content {
+      flex: 1;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .content h1 {
+      font-size: 42px;
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    .content h2 {
+      font-size: 25px;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      font-size: 18px;
+      color: black;
+    }
+
+    .content img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body class="omOs">
+
+<div th:replace="~{Sidehovedbar :: Header}"></div>
+
+<div class="content">
+
+  <h1>Velkommen til Danmark mod Madspild</h1>
+
+  <p>Din partner i kampen mod madspild. Vi er en passioneret organisation, grundlagt af en gruppe engagerede enkeltpersoner, der deler en fælles vision om at skabe en mere bæredygtig og retfærdig fremtid. </p>
+  <h2>Vores Mission</h2>
+
+  <p>Vi tror på, at hver enkelt af os har en rolle at spille i at gøre en positiv forskel. Derfor er vores mål at opmuntre og facilitere denne deltagelse gennem:</p>
+
+  <ul>
+    <li><strong>Bevidsthedsskabende Kampagner: </strong>Vi informerer og uddanner offentligheden om konsekvenserne af madspild og de skridt, vi alle kan tage for at reducere det. </li>
+    <li><strong>Samarbejde med Virksomheder: </strong>Vi samarbejder med fødevarevirksomheder, supermarkeder, restauranter og andre relevante aktører for at implementere strategier til at reducere spildet i deres drift.</li>
+    <li><strong>Politisk Indflydelse: </strong>Vi arbejder på at påvirke detailhandel, restauranter og lovgivning for at skabe et mere gunstigt miljø for madspildsreduktion og genanvendelse.</li>
+  </ul>
+  <h2>Vores Vision</h2>
+  <p>Vi drømmer om en fremtid, hvor hver enkelt dansker er bevidst om deres madspild, hvor spildte ressourcer bliver set som en uacceptabel luksus, og hvor alle arbejder sammen for at minimere vores fodaftryk på planeten.</p>
+  <p>Tak fordi du støtter vores mission om at gøre Danmark til et sted, hvor mad bliver værdsat og respekteret, og hvor intet går til spilde. Sammen kan vi gøre en forskel.</p>
+
+  <div class="omOs">
+  <img src="../static/images/omOsMadspild.jpeg" width="500" th:src="@{images/omOsMadspild.jpeg}" alt="Om os billede">
+</div>
+</div>
+
+<div th:replace="~{footer :: Footer}"></div>
+
+</body>
+</html>

@@ -155,7 +155,7 @@ footer {
 }
 .Sidehovedbar a:hover {
     color: black;
-    background-color: darkslategrey;
+    background-color: transparent;
 }
 
 .Sidehovedbar .nav-button a { /* Style the anchor tags inside buttons */
@@ -199,7 +199,7 @@ footer {
 
 /* Stil for links ved hover */
 .engros a:hover {
-    color: #f0f0f0; /* Farveændring på hover */
+    color: black; /* Farveændring på hover */
     background-color: transparent; /* Gennemsigtig baggrund på hover */
 }
 .restaurant {

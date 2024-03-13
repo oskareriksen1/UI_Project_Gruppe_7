@@ -7,25 +7,30 @@
 </head>
 <body>
 <div th:replace="~{SideHovedBar :: Header}"></div>
-<h1>Strategier til at Mindske Madspild i Detailhandelen</h1>
-<section>
-    <h2>Hvorfor er det vigtigt at mindske madspild?</h2>
-    <p>At mindske madspild er afgørende for både miljøet og økonomien. Det reducerer behovet for affaldshåndtering, sparer ressourcer og kan hjælpe med at fodre flere mennesker.</p>
-</section>
-<section>
-    <h2>Praktiske skridt for detailhandlere</h2>
-    <ul>
-        <li><strong>Donation af overskudsvarer:</strong> Samarbejd med lokale velgørenhedsorganisationer for at donere usolgte fødevarer, der stadig er sikre at spise.</li>
-        <li><strong>Dynamisk prissætning:</strong> Brug dynamisk prissætning på varer, der nærmer sig deres udløbsdato, for at tilskynde hurtigere salg.</li>
-        <li><strong>Forbedre lagerstyringen:</strong> Implementer avancerede lagerstyringssystemer for at forbedre forudsigelsen af efterspørgsel og reducere overskud.</li>
-        <li><strong>Uddannelse af medarbejdere og kunder:</strong> Uddan medarbejdere i bedste praksisser for madhåndtering og oplys kunderne om, hvordan de kan mindske madspild derhjemme.</li>
-        <li><strong>Optimer pakning:</strong> Indfør mindre pakningsstørrelser for at imødekomme mindre husstande og reducere madspild.</li>
-    </ul>
-</section>
-<section>
-    <h2>Case Studier</h2>
-    <p>Udforsk succesfulde tilfælde af detailhandlere, der har implementeret innovative løsninger for at mindske madspild, såsom at bruge apps til at sælge overskudsvarer til nedsat pris.</p>
-</section>
+
+<div class="content-wrapper">
+    <h1>Strategier til at Mindske Madspild i Detailhandelen</h1>
+    <section>
+        <h2>Hvorfor er det vigtigt at mindske madspild?</h2>
+        <p>At mindske madspild er afgørende for både miljøet og økonomien. Det reducerer behovet for affaldshåndtering, sparer ressourcer og kan hjælpe med at fodre flere mennesker.</p>
+    </section>
+    <img src="../static/images/ok-wefood-madspild.webp" width="500" th:src="@{images/ok-wefood-madspild.webp}" alt="Madspild Supermarked">
+    <section>
+        <h2>Praktiske skridt for detailhandlere</h2>
+        <ul>
+            <li><strong>Donation af overskudsvarer:</strong> Samarbejd med lokale velgørenhedsorganisationer for at donere usolgte fødevarer, der stadig er sikre at spise.</li>
+            <li><strong>Dynamisk prissætning:</strong> Brug dynamisk prissætning på varer, der nærmer sig deres udløbsdato, for at tilskynde hurtigere salg.</li>
+            <li><strong>Forbedre lagerstyringen:</strong> Implementer avancerede lagerstyringssystemer for at forbedre forudsigelsen af efterspørgsel og reducere overskud.</li>
+            <li><strong>Uddannelse af medarbejdere og kunder:</strong> Uddan medarbejdere i bedste praksisser for madhåndtering og oplys kunderne om, hvordan de kan mindske madspild derhjemme.</li>
+            <li><strong>Optimer pakning:</strong> Indfør mindre pakningsstørrelser for at imødekomme mindre husstande og reducere madspild.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Case Studier</h2>
+        <p>Udforsk succesfulde tilfælde af detailhandlere, der har implementeret innovative løsninger for at mindske madspild, såsom at bruge apps til at sælge overskudsvarer til nedsat pris.</p>
+    </section>
+</div>
+
 <div th:replace="~{footer :: Footer}"></div>
 </body>
 </html>

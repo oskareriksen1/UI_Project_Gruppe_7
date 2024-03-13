@@ -1,37 +1,37 @@
-.links {
+.engros .links {
     display: flex;
     flex-direction: row; /* Sætter flex-boksen til at være vandret */
     justify-content: space-between; /* Fordeler pladsen mellem elementerne */
     margin-top: 20px;
 }
-.link-container {
+.engros .link-container {
     width: 100%;
 }
 
-.link {
+.engros .link {
     width: 100%; /* Juster bredden efter behov */
 }
 
-.link a {
+.engros .link a {
     display: block;
     font-weight: bold;
     text-decoration: none;
     color: #333;
 }
 
-.link p {
+.engros .link p {
     margin-top: 5px;
     font-size: 14px;
     color: #666;
 }
 
-a {
+.engros a {
     color: black; /* Sort farve på linket */
     text-decoration: none; /* Ingen understregning på linket */
 }
 
 /* Stil for links ved hover */
-a:hover {
+.engros a:hover {
     color: #f0f0f0; /* Farveændring på hover */
     background-color: transparent; /* Gennemsigtig baggrund på hover */
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/css/Restauratører.css}" href="../static/css/Restauratorer.css">
+    <link rel="stylesheet" th:href="@{/css/styles.css}" href="../static/css/styles.css">
+    <meta charset="UTF-8">
+    <title>Restauratører</title>
+
+</head>
+<body>
+<div th:replace="~{Sidehovedbar :: Header}"></div>
+    <h1>Restauratører</h1>
+
+    <section>
+    <h3>Madspild er ikke bare et problem, det er tabte penge</h3>
+            <p class="p1">
+            Hvert eneste år udgør restauratør branchen ca. 8% af det samlede madspild, hvilket er svarende til 60.000 tons om året.
+            Det ses ofte at madspildet kommer af manglende planlægning, opbevaring, tilberedning og overproduktion.
+            Korrekt planlægning for restauratører er super vigtigt, men det kan være svært at forudsige, hvor mange kunder der kigger forbi.
+            Bufetter er den største synder indenfor restauratør branchen. Der forekommer en del overproduktion.
+            </p>
+            <p class="p2">
+            Eftersom at madspild har fået mere og mere fokus på sig er der flere tiltag som har reduceret madspildet. Buffetter er blevet
+            bedre til at anskue portionsstørrelser og opfyldningen af alle deres retter.
+            Initiativer som REFOOD er skabt for at fremhæve overfor kunderne at de tager madspild seriøst. Det er med til at holde restauratørerne
+            til ansvar for at der bliver gjort en indsats mod madspild. Doggybags, goodiebags eller "treat boxe" er også blevet mere almindeligt
+            og tillader kunderne at tage reserne med hjem for at undgå endnu mere madspild.
+            </p>
+            <div class="restaurator">
+                <img src="../static/images/restauratør.jpg" th:src="@{images/restauratør.jpg}" alt="Restauratør billede">
+            </div>
+    </section>
+
+
+
+<div th:replace="~{footer :: Footer}"></div>
+</body>
+</html>
+
+
+

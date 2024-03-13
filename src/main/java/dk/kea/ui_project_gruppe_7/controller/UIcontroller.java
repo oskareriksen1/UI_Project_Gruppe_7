@@ -19,8 +19,11 @@ public class UIcontroller {
     public String visDetail(){
         return "detail";
     }
+    @GetMapping("/Restauratorer")
+    public String visRestauratorer() { return "Restauratorer";}
 @GetMapping("/test")
     public String test(){
         return "test";
 }
 }
+

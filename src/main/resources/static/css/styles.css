@@ -124,7 +124,7 @@ footer {
     box-sizing: border-box;
 }
 
-.Sidehovedbar body {  /* Assuming this was a typo, remove if intended */
+.Sidehovedbar body {
     display: flex;
     justify-content: center;
     background-color: salmon;
@@ -237,4 +237,7 @@ footer {
     height: 250px;
     display: block;
     margin: 0 auto;
+}
+.forside {
+
 }

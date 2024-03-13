@@ -238,6 +238,13 @@ footer {
     display: block;
     margin: 0 auto;
 }
+.forside p {
+    font-size:18px;
+    color:black;
+
+}
+
+
 .forside {
 }
 
@@ -252,6 +259,30 @@ footer {
     gap: 10px;
 }
 
+.forside .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.forside .tekst {
+    width: 50%;
+    padding: 20px;
+}
+
+.forside img {
+    width: 50%;
+    height: auto;
+}
+
+.forside @media (max-width: 768px) {
+    .forside .container {
+        flex-direction: column;
+    }
+
+    .forside .tekst,
+    img {
+        width: 100%;
+    }
 .Partners img {
     width: 100px;
     height: 50px;

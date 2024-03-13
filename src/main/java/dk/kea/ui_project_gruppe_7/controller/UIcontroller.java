@@ -30,5 +30,9 @@ public class UIcontroller {
     public String test(){
         return "test";
 }
+    @GetMapping("/omOs")
+    public String omOs(){
+        return "omOs";
+    }
 }
 

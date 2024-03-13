@@ -103,7 +103,7 @@ footer {
     width: 100%;
     padding: 2%;
     font-size: 1.4em;
-    background-color: #fff;
+    background-color: salmon;
 }
 
 .Sidehovedbar .logo img {
@@ -146,12 +146,16 @@ footer {
     display: inline-block;
     margin-left: 20px;
 }
+.Sidehovedbar a:hover {
+    color: black;
+    background-color: darkslategrey;
+}
 
 .Sidehovedbar .nav-button a { /* Style the anchor tags inside buttons */
     padding: 10px 15px;
-    background-color: #ffffff;
+    background-color: salmon;
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 .engros .links {

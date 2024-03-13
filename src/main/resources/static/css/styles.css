@@ -276,11 +276,12 @@ footer {
     .forside .container {
         flex-direction: column;
     }
-}
+
     .forside .tekst,
     img {
         width: 100%;
     }
+}
 .Partners img {
     width: 100px;
     height: 50px;

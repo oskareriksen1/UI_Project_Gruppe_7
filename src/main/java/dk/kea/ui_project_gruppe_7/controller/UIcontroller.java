@@ -21,6 +21,8 @@ public class UIcontroller {
     }
     @GetMapping("/Restauratorer")
     public String visRestauratorer() { return "Restauratorer";}
+    @GetMapping("/privat")
+    public String visPrivat() { return "privat";}
 @GetMapping("/test")
     public String test(){
         return "test";

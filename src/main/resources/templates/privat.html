@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/styles.css}" href="../static/css/styles.css">
+    <title>Privat: Hvordan kan du bidrage</title>
+</head>
+<body>
+<div th:replace="~{SideHovedBar :: Header}"></div>
+
+<div class="content-wrapper">
+    <h1>Sådan mindsker du madspild</h1>
+
+    <section>
+        <h2>Planlæg dine måltider</h2>
+        <p>At planlægge dine måltider i forvejen kan hjælpe dig med at købe kun det, du har brug for, og undgå at mad går til spilde.</p>
+    </section>
+
+    <section>
+        <h2>Køb kun det, du har brug for</h2>
+        <p>Undgå impulskøb og køb kun det, du ved, du vil bruge. Dette hjælper med at reducere mængden af mad, der ender med at blive smidt ud.</p>
+    </section>
+
+    <section>
+        <h2>Opbevar maden korrekt</h2>
+        <p>Korrekt opbevaring af mad kan forlænge dens holdbarhed. Lær, hvilke madvarer der holder længere i køleskabet, fryseren eller i skabet.</p>
+    </section>
+
+    <section>
+        <h2>Bliv kreativ med rester</h2>
+        <p>Se rester som en mulighed for at være kreativ i køkkenet. Mange rester kan omdannes til nye måltider, hvilket mindsker spild.</p>
+    </section>
+
+    <section>
+        <h2>Forstå dato-mærkninger</h2>
+        <p>Lær forskellen på "bedst før" og "sidste anvendelsesdato". Mange madvarer er stadig sikre at spise efter "bedst før" datoen.</p>
+    </section>
+    <br>
+    <img src="../static/images/privatmadspild.jpg" width="500" th:src="@{images/privatmadspild.jpg}" alt="Madspild Privat">
+    <br>
+    <br>
+</div>
+
+<div th:replace="~{footer :: Footer}"></div>
+</body>
+</html>

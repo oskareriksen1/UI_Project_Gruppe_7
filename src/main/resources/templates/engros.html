@@ -8,10 +8,6 @@
         body {
             font-family: 'Georgia' , serif;
         }
-        .content {
-            padding-left: 20px; /* Tilføj 20px polstring fra venstre side */
-            padding-right: 20px; /* Tilføj 20px polstring fra højre side */
-        }
 
         .content h1 {
             font-size: 42px;
@@ -35,7 +31,7 @@
 
 <div th:replace="~{Sidehovedbar :: Header}"></div>
 
-<div class="content">
+<div class="content" style="padding-left: 20px; padding-right: 20px;">
     <h1>Engros</h1>
     <section>
         <p>Engrosvirksomheder spiller en afgørende rolle i bekæmpelsen af madspild. Her er nogle vigtige fakta og informationer om madspild i engrosbranchen, som kan hjælpe dig med at forstå omfanget af problemet.</p>

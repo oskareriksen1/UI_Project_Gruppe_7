@@ -9,10 +9,13 @@ body {
     overflow-x: hidden;
     background-color: antiquewhite;
 }
+
 .content-wrapper {
     flex: 1;
     margin-left: 40px;
     margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     /* Ensure content does not exceed the viewport width */
     max-width: calc(100vw - 80px);
     box-sizing: border-box;
@@ -202,6 +205,12 @@ footer {
     color: black; /* Farveændring på hover */
     background-color: transparent; /* Gennemsigtig baggrund på hover */
 }
+
+.detail p {
+    font-size: 18px;
+    color: black;
+}
+
 .restaurant {
     font-family: 'Georgia', serif;
     margin: 0;
@@ -243,8 +252,6 @@ footer {
     color:black;
 
 }
-
-
 
 .forside .container {
     display: flex;

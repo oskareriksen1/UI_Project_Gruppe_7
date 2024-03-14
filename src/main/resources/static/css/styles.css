@@ -212,7 +212,7 @@ footer {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: antiquewhite;
 }
 
 .restaurant section {
@@ -221,6 +221,7 @@ footer {
     text-align: justify;
     padding: 20px;
 }
+
 
 .restaurant h1 {
     text-align: center;
@@ -251,18 +252,6 @@ footer {
 }
 
 
-
-
-.Partners {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0);
-    display: grid;
-
-    gap: 10px;
-}
-
 .forside .container {
     display: flex;
     flex-direction: row;
@@ -291,10 +280,10 @@ footer {
 .Partners img {
     width: 100px;
     height: 50px;
-    display: grid;
+    display:block;
     margin: 0 auto;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
 
 }
 
@@ -303,7 +292,16 @@ footer {
 }
 
 .Partners section {
-
+    background-color: antiquewhite;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+}
+.Partners {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: grid;
+
+    gap: 10px;
 }

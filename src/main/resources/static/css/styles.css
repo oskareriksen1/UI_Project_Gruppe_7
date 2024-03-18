@@ -1,5 +1,5 @@
 body {
-    font-family: 'Georgia', serif;
+    font-family: "Segoe UI", Tahoma;
     margin: 0;
     padding: 0;
     display: flex;
@@ -142,12 +142,13 @@ footer {
     display: flex;
     justify-content: center;
     background-color: salmon;
+
 }
 
 .Sidehovedbar nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
 }
 
 .Sidehovedbar nav {
@@ -157,10 +158,12 @@ footer {
 
 .Sidehovedbar nav li {
     margin-right: 20px;
+
 }
 
 .Sidehovedbar nav li:first-child {
     margin-right: 0;
+
 }
 
 .Sidehovedbar .nav-button {
@@ -382,10 +385,8 @@ footer {
 .Partners {
     font-family: 'Georgia', serif;
     margin: 0;
-    padding: 10px;
     background-color: antiquewhite;
     display: grid;
-
     gap: 10px;
 }
 .omOs .content {

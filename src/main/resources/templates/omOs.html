@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <title>Om os</title>
   <link rel="stylesheet" th:href="@{/css/styles.css}" href="../static/css/styles.css">
-  <style>
-
-  </style>
 </head>
-<body class="omOs">
 
+<body class="omOs">
 <div th:replace="~{Sidehovedbar :: Header}"></div>
+<main>
+
 
   <div class="content">
   <div class="tekst">
@@ -32,10 +31,11 @@
 
 
      </div>
-      <img src="../static/images/omOsMadspild.jpeg" width="500" th:src="@{images/omOsMadspild.jpeg}" alt="Om os billede">
+      <img src="../static/images/omOsMadspild.jpeg" th:src="@{images/omOsMadspild.jpeg}" alt="Om os billede">
   </div>
-
+</main>
     <div th:replace="~{footer :: Footer}"></div>
 
 </body>
+
 </html>

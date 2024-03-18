@@ -11,8 +11,10 @@
 <div th:replace="~{Sidehovedbar :: Header}"></div>
     <h1>Restauratører</h1>
 
-    <section>
-    <h3>Madspild er ikke bare et problem, det er tabte penge</h3>
+    <div class="container">
+        <div class="tekst">
+        <section>
+        <h3>Madspild er ikke bare et problem, det er tabte penge</h3>
             <p class="p1">
             Hvert eneste år udgør restauratør branchen ca. 8% af det samlede madspild, hvilket er svarende til 60.000 tons om året.
             Det ses ofte at madspildet kommer af manglende planlægning, opbevaring, tilberedning og overproduktion.
@@ -38,11 +40,12 @@
             restauranter som ikke har fokus på madspild og vælger dem som går op i det. Det kunne sagtens lede til yderligere tabt indkomst.
 
             </p>
-            <div class="restaurator">
-                <img src="../static/images/restauratør.jpg" th:src="@{images/restauratør.jpg}" alt="Restauratør billede">
-            </div>
     </section>
-
+        </div>
+<div class="restaurator">
+    <img src="../static/images/restauratør.jpg" th:src="@{images/restauratør.jpg}" alt="Restauratør billede">
+</div>
+    </div>
 
 
 <div th:replace="~{footer :: Footer}"></div>

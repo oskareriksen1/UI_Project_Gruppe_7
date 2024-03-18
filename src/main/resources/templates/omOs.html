@@ -5,45 +5,7 @@
   <title>Om os</title>
   <link rel="stylesheet" th:href="@{/css/styles.css}" href="../static/css/styles.css">
   <style>
-    body {
-      font-family: 'Georgia', serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
 
-    .content {
-      flex: 1;
-      margin-left: 40px;
-      margin-right: 40px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-    .content h1 {
-      font-size: 42px;
-      color: black;
-      margin-bottom: 20px;
-    }
-
-    .content h2 {
-      font-size: 25px;
-      color: black;
-      margin-bottom: 10px;
-    }
-
-    .content p {
-      font-size: 18px;
-      color: black;
-    }
-
-    .content img {
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 20px;
-    }
   </style>
 </head>
 <body class="omOs">
@@ -69,8 +31,8 @@
     <p>Tak fordi du støtter vores mission om at gøre Danmark til et sted, hvor mad bliver værdsat og respekteret, og hvor intet går til spilde. Sammen kan vi gøre en forskel.</p>
 
 
-      <img src="../static/images/omOsMadspild.jpeg" width="500" th:src="@{images/omOsMadspild.jpeg}" alt="Om os billede">
      </div>
+      <img src="../static/images/omOsMadspild.jpeg" width="500" th:src="@{images/omOsMadspild.jpeg}" alt="Om os billede">
   </div>
 
     <div th:replace="~{footer :: Footer}"></div>

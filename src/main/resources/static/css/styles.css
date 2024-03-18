@@ -327,3 +327,26 @@ footer {
 
     gap: 10px;
 }
+.omOs .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.omOs .tekst {
+    width: 50%;
+    padding: 20px;
+}
+.omOs img{
+    width: 50%;
+    height: auto;
+}
+.omOs @media (max-width: 768px) {
+    .omOs .content {
+        flex-direction: column;
+    }
+
+    .omOs .tekst,
+    img {
+        width: 100%;
+    }
+}

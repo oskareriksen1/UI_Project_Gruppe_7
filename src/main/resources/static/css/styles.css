@@ -202,6 +202,29 @@ footer {
     color: black;
     background-color: transparent;
 }
+.engros .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.engros .tekst {
+    width: 50%;
+    padding: 20px;
+}
+.engros img{
+    width: 50%;
+    height: auto;
+}
+.engros @media (max-width: 768px) {
+    .engos .container {
+        flex-direction: column;
+    }
+
+    .engos .tekst,
+    img {
+        width: 100%;
+    }
+}
 
 .detail p {
     font-size: 18px;

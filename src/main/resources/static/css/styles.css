@@ -230,6 +230,30 @@ footer {
     font-size: 18px;
 
 }
+.detail .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail .tekst {
+    width: 50%;
+    padding: 20px;
+}
+.detail img{
+    width: 50%;
+    height: auto;
+}
+.detail @media (max-width: 768px) {
+    .detail .container {
+        flex-direction: column;
+    }
+
+    .detail .tekst,
+    img {
+        width: 100%;
+    }
+}
+
 
 .restaurant {
     font-family: 'Georgia', serif;
@@ -241,8 +265,8 @@ footer {
 
 .restaurant section {
     font-size: 18px;
-    max-width: 800px;
-    padding: 20px;
+    width: 95%;
+    padding-left: 20px;
     margin-bottom: 40px
 
 
@@ -250,7 +274,8 @@ footer {
 
 .restaurant h1 {
     text-align: left;
-    padding: 20px;
+    padding-left:20px;
+    padding-top: 20px;
 }
 
 .restaurant h3 {
@@ -262,21 +287,34 @@ footer {
 }
 
 .restaurant .restaurator {
-    position: absolute;
+
     top: 65%;
-    transform: translateY(-46%);
+
     right: 0
 
 }
 
 .restaurant .restaurator img {
-    width: 630px;
-    height: 390px;
+    width: 768px;
+    height: 600px;
     display: block;
-    margin-bottom: 20px;
-    margin-right: 250px
-}
 
+
+}
+.restaurant .container{
+    display: flex;
+    flex-direction: row;
+}
+.restaurant @media (max-width: 768px) {
+    .restaurant .container {
+        flex-direction: column;
+    }
+
+    .restaurant .tekst,
+    img {
+        width: 100%;
+    }
+}
 .forside p {
     font-size:18px;
 
@@ -361,4 +399,27 @@ footer {
 }
 .omOs p {
     font-size: 18px;
+}
+.privat .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.privat .tekst {
+    width: 50%;
+    padding: 20px;
+}
+.privat img{
+    width: 50%;
+    height: auto;
+}
+.privat @media (max-width: 768px) {
+    .privat .container {
+        flex-direction: column;
+    }
+
+    .privat .tekst,
+    img {
+        width: 100%;
+    }
 }

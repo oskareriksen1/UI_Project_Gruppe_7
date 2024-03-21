@@ -183,6 +183,11 @@ footer {
     text-decoration: none;
     color: white;
 }
+.Sidehovedbar a:hover{
+    color: black;
+
+}
+
 
 .engros .links {
     display: flex;
